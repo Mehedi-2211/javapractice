@@ -11,7 +11,9 @@ public class Main {
 		// TODO Auto-generated method stub
 //		System.out.println("Md. Mehedi Hassan");
 		Employee mehedi = new Employee("Mehedi", "01", "SQA Engineer", 5000, 18); //Instance create 
-		System.out.println(mehedi.getName() +" "+ mehedi.getId() +" "+ mehedi.getDesignation() +" "+ mehedi.getSalary() +" "+  mehedi.getAge());//value get by getter method for mehedi object
+		mehedi.setHeight(5.2);
+		mehedi.setWeight(52);
+		System.out.println(mehedi.getName() +" "+ mehedi.getId() +" "+ mehedi.getDesignation() +" "+ mehedi.getSalary() +" "+  mehedi.getAge()+ " " + mehedi.getHeight() + " " + mehedi.getWeight());//value get by getter method for mehedi object
 		
 		mehedi.setName("Mehedi Hassan"); //set new value for mehedi using setter method
 		System.out.println(mehedi.getName());

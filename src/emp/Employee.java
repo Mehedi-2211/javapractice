@@ -2,7 +2,7 @@ package emp;
 
 import javax.management.loading.PrivateClassLoader;
 
-public class Employee {
+public class Employee extends Person{
 	private String name; // Attributes 
 	private String id;
 	private String designation;

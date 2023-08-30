@@ -3,14 +3,14 @@ package emp;
 import javax.management.loading.PrivateClassLoader;
 
 public class Employee {
-	private String name;
+	private String name; // Attributes 
 	private String id;
 	private String designation;
 	private double salary;
 	private int age;
 
-	public Employee(String name, String id, String designation, double salary, int age) {
-      this.name= name;
+	public Employee(String name, String id, String designation, double salary, int age) { //Constructor 
+      this.name= name; //initial value assign 
       this.id= id;
       this.designation= designation;
       this.salary= salary;
@@ -18,11 +18,11 @@ public class Employee {
       
 	}
 
-	public String getName() {
+	public String getName() { //getter method 
 		return name;
 	}
 
-	public void setName(String name) {
+	public void setName(String name) { //setter method 
 		this.name = name;
 	}
 

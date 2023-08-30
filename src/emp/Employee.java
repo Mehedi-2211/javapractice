@@ -45,6 +45,12 @@ public class Employee {
 	public double getSalary() {
 		return salary;
 	}
+	
+
+	public String toString() { //to string method
+		return "Employee [name=" + name + ", id=" + id + ", designation=" + designation + ", salary=" + salary
+				+ ", age=" + age + "]";
+	}
 
 	public void setSalary(double salary) {
 		this.salary = salary;
